@@ -1,0 +1,5 @@
+a) linear: O(n) 
+b) linear: O(n) 
+c) Logaritmica: O(log n)  
+d) quadrática: O(n^2)
+e) constante: O(1)
