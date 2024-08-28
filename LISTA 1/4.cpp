@@ -7,6 +7,6 @@ int ElevaNumero(int n, int x){
         return 1;
     }
     else{
-        return x * ElevaNumero(x, n - 1);
+        return x * ElevaNumero(x, n - 1); //kkkkkkkkkkkk
     }
 }
