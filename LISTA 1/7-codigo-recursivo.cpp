@@ -19,7 +19,7 @@ int main() {
     f(n);
     end = clock(); 
     
-    t = double(end - begin) / CLOCKS_PER_SEC; 
+    t = double(end - begin) / CLOCKS_PER_SEC; kkk
     cout << "O n = " << n << " gastou " << t << " segundos" << endl;
 
     return 0;
