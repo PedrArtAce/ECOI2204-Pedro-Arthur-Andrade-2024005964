@@ -1,5 +1,5 @@
-a) linear: O(n) 
-b) linear: O(n) 
-c) Logaritmica: O(log n)  
+a) linear: O(n) > depende unicamente de uma entrada (n) para sua duração
+b) linear: O(n) > igual o caso anterior
+c) Logaritmica: O(log n) > divide um problema grande em problemas menores
 d) quadrática: O(n^2) > se justifica pela presença de dois laços de repetição;
-e) constante: O(1)
+e) constante: O(1) > não muda a complexidade ou a duração do código em nenhum caso
