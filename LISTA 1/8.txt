@@ -1,5 +1,5 @@
 a) linear: O(n) 
 b) linear: O(n) 
 c) Logaritmica: O(log n)  
-d) quadrática: O(n^2)
+d) quadrática: O(n^2) > se justifica pela presença de dois laços de repetição;
 e) constante: O(1)
