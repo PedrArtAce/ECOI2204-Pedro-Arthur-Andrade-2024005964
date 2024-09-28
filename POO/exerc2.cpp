@@ -5,15 +5,14 @@ using namespace std;
 class Carro
 {
 private:
-    int parado;         // 1 – parado, 0 – em movimento
-    int ligado;         // 1 – ligado, 0 – desligado
-    char fabricante[20];
-    char modelo[20];
-    char motor[4];
+    int parado;         
+    int ligado;         
+    char *fabricante;
+    char *modelo;
+    char *motor;
 
 public:
-    // Construtor com parâmetros
-    Carro(int _parado, int _ligado, char _fabricante[], char _modelo[], char _motor[])
+    Carro(int _parado, int _ligado, char *_fabricante, char *_modelo, char _motor[])
     {
         parado = _parado;
         ligado = _ligado;
@@ -22,11 +21,10 @@ public:
         strcpy(motor, _motor);
     }
 
-    // Construtor padrão
     Carro()
     {
-        ligado = 0; // começa desligado
-        parado = 1; // começa parado
+        ligado = 0;
+        parado = 1; 
         strcpy(fabricante, "");
         strcpy(modelo, "");
         strcpy(motor, "");
@@ -51,12 +49,11 @@ public:
     {
         parado = 1;
     }
-}; // fim da classe
+}; 
 
-int main()
-{
-    // Exemplo da criação de objetos do tipo Carro:
-    Carro *gol = new (nothrow) Carro(1, 0, "Volks", "GTI", "1.8");
+int main(){
+    char *modelo = "GTI", *fabricante = "Volks";
+    Carro *gol = new (nothrow) Carro(1, 0, fabricante, modelo, "1.8");
     if (gol)
     {
         gol->ligar();
