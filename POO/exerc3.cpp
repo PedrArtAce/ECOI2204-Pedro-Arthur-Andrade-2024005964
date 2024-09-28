@@ -90,7 +90,7 @@ int main() {
 
     //Livro 2
     cout << endl << endl <<"Livro 2: \n";
-    cout << "Tituloa: " << Exemplo2->getTitulo() << endl;
+    cout << "Titulo: " << Exemplo2->getTitulo() << endl;
     cout << "Autor: " << Exemplo2->getAutor() << endl;
     cout << "Ano: " << Exemplo2->getAnoPublicacao() << endl;
 
